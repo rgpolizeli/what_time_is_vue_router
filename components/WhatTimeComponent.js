@@ -1,4 +1,4 @@
-const whatTimeComponent = Vue.component('what-time-component', {
+const WhatTimeComponent = Vue.component('what-time-component', {
   data: function(){
 	return{
 		 time: "Click in time button!"

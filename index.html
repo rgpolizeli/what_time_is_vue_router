@@ -6,10 +6,16 @@
 
 <body>
 <!-- Don't #app -->
-<div id="app" />
+<div id="app">
+	<nav-bar-component></nav-bar-component>
+	<div style="height:400px;background: lightgray;display:flex; margin-top:10px;">
+		<router-view></router-view>
+	</div>
+	</div>
 </body>
 
-<script src ="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 
 <!-- Import components -->
 <script src ="./components/HomeComponent.js"></script>
